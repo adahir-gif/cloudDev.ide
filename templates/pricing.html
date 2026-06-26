@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Pricing — CloudDev IDE</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Segoe UI',system-ui,sans-serif;background:#0d1117;color:#e6edf3}
+    nav{display:flex;align-items:center;padding:16px 48px;border-bottom:1px solid #21262d}
+    .logo{display:flex;align-items:center;gap:10px}
+    .logo-icon{width:30px;height:30px;background:#238636;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px}
+    .logo-name{font-size:16px;font-weight:800}
+    .nav-links{margin-left:auto;display:flex;gap:24px;align-items:center}
+    .nav-links a{font-size:14px;color:#8b949e;text-decoration:none}
+    .nav-links a.cta{background:#238636;color:#fff;padding:7px 18px;border-radius:6px;font-weight:600}
+    .hero{text-align:center;padding:64px 24px 48px}
+    h1{font-size:34px;font-weight:800;margin-bottom:10px}
+    .sub{font-size:15px;color:#8b949e;margin-bottom:40px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:860px;margin:0 auto;padding:0 24px 64px}
+    .card{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:28px}
+    .card.featured{border-color:#238636}
+    .plan{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#8b949e;margin-bottom:8px}
+    .amount{font-size:30px;font-weight:800;margin-bottom:4px}
+    .amount span{font-size:13px;font-weight:400;color:#8b949e}
+    .desc{font-size:13px;color:#8b949e;margin-bottom:20px;line-height:1.5}
+    .feat-list{list-style:none;display:flex;flex-direction:column;gap:8px;margin-bottom:24px}
+    .feat-list li{font-size:13px;color:#c9d1d9;display:flex;align-items:center;gap:8px}
+    .feat-list li::before{content:'✓';color:#238636;font-weight:700}
+    .btn{display:block;padding:9px;border-radius:6px;font-size:14px;font-weight:600;text-align:center;text-decoration:none;cursor:pointer}
+    .btn-outline{border:1px solid #30363d;color:#e6edf3}
+    .btn-green{background:#238636;color:#fff;border:none}
+  </style>
+</head>
+<body>
+<nav>
+  <div class="logo"><div class="logo-icon">&#128187;</div><div class="logo-name">CloudDev IDE</div></div>
+  <div class="nav-links">
+    <a href="/features">Features</a>
+    <a href="/pricing">Pricing</a>
+    <a href="https://code.visualstudio.com/docs" target="_blank">Docs</a>
+    <a href="/auth/github/connecting" class="cta">Start coding free</a>
+  </div>
+</nav>
+<div class="hero">
+  <h1>Simple, transparent pricing</h1>
+  <p class="sub">Start free. Scale as your team grows.</p>
+</div>
+<div class="cards">
+  <div class="card">
+    <div class="plan">Hobby</div>
+    <div class="amount">$0 <span>/ month</span></div>
+    <div class="desc">For individual developers and side projects.</div>
+    <ul class="feat-list">
+      <li>2 vCPU / 4 GB RAM</li>
+      <li>3 active workspaces</li>
+      <li>60 hrs compute / month</li>
+      <li>Community support</li>
+    </ul>
+    <a href="/auth/github/connecting" class="btn btn-outline">Get started free</a>
+  </div>
+  <div class="card featured">
+    <div class="plan">Pro</div>
+    <div class="amount">$19 <span>/ month</span></div>
+    <div class="desc">For professional developers who need more power.</div>
+    <ul class="feat-list">
+      <li>8 vCPU / 16 GB RAM</li>
+      <li>Unlimited workspaces</li>
+      <li>400 hrs compute / month</li>
+      <li>AI code completion</li>
+      <li>Priority support</li>
+    </ul>
+    <a href="/auth/github/connecting" class="btn btn-green">Start Pro trial</a>
+  </div>
+  <div class="card">
+    <div class="plan">Team</div>
+    <div class="amount">$29 <span>/ user / month</span></div>
+    <div class="desc">For engineering teams that need collaboration and security.</div>
+    <ul class="feat-list">
+      <li>32 vCPU / 64 GB RAM</li>
+      <li>Shared team workspaces</li>
+      <li>SSO / SAML</li>
+      <li>Audit logs</li>
+      <li>SOC 2 Type II</li>
+      <li>Dedicated support</li>
+    </ul>
+    <a href="/auth/github/connecting" class="btn btn-outline">Contact sales</a>
+  </div>
+</div>
+
+<footer style="border-top:1px solid #21262d;padding:24px 48px;display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#484f58">
+  <div>&#169; 2026 <a href="https://reimbursor.info" target="_blank" style="color:#58a6ff;text-decoration:none">reimbursor.info</a> group &nbsp;·&nbsp; All rights reserved</div>
+  <div>Questions? <a href="mailto:adahir@reimbursor.info" style="color:#58a6ff;text-decoration:none">adahir@reimbursor.info</a></div>
+</footer>
+</body>
+</html>
